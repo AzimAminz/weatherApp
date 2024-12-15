@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "wheater",
+			"path": "."
+		},
+		{
+			"name": "lib",
+			"path": "../wheater-app/lib"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}

@@ -1,0 +1,35 @@
+name: wheater # Consider changing this to "weather" if it's a typo
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0" # Updated to ensure compatibility with current Dart and Flutter SDKs
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2 # For API requests
+  provider: ^6.0.0 # State management
+  intl: ^0.20.1 # For date and time formatting
+  geolocator: ^13.0.2
+  flutter_spinkit: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/ # Ensure this folder exists in the project root
+  
+  fonts:
+    - family: SpartanMB
+      fonts:
+        - asset: fonts/SpartanMB-Black.otf # Fixed the path for cross-platform compatibility
+          weight: 900
